@@ -1,3 +1,10 @@
-def average(valuse)
-    print(avarage([20,30,70]))
-    reture sum
+def average(values):
+    """
+    calculate average from numeric list
+    >>> print(average([20,30,70]))
+    40.0
+    """
+    return sum(values) / len(values)
+
+import doctest
+doctest.testmod()
